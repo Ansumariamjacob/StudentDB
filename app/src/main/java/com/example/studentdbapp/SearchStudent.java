@@ -45,7 +45,7 @@ public class SearchStudent extends AppCompatActivity {
                     while (c.moveToNext())
                     {
                         getName=c.getString(1);
-                        getRolno=c.getString(3);
+                        getRolno=c.getString(2);
                         getclg=c.getString(4);
 
                     }
